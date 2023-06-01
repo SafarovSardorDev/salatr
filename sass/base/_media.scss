@@ -1,0 +1,99 @@
+@media(max-width: 1200px) {
+    .header{
+        .hamburger{
+            display: block;
+        }
+        &_menu{
+            display: none;
+            ul{
+                flex-direction: column;
+                gap: 15px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        &_icons{
+            display: none;
+        }
+        &_content{
+            justify-content: center;
+        }
+        &_item{
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+
+    .flower{
+        &_wrapper{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .decorate{
+        &_wrapper{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .campaign{
+        &_wrapper{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .cards{
+        &_tab{
+            display: none;
+        }
+    }
+
+    
+}
+
+@media(max-width: 1350px){
+    .footer{
+        &_list{
+            &::after{
+                content: none;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 992px) {
+    .footer{
+        &_wrapper{
+            flex-direction: column;
+        }
+        &_list{
+            gap: 15px;
+            justify-content: center;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+    }
+}
+
+
+@media(max-width: 500px) {
+    .header{
+        &_buttons{
+            &::after{
+                content: none;
+            }
+
+        }
+        &_sub-title{
+            &::after{
+                content: none;
+            }
+        }
+    }
+}

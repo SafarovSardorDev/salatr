@@ -1,0 +1,52 @@
+@import "base/fonts";
+@import "base/variables";
+
+
+*{
+    margin:0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    scroll-behavior: smooth;
+
+}
+
+
+ul, li {
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+button:hover{
+        background-color: #145855;
+        color: white;
+        cursor: pointer;
+}
+
+
+@import "blocks/header";
+@import "blocks/title";
+@import "blocks/flower";
+@import "blocks/indent";
+@import "blocks/btn";
+@import "blocks/decorate";
+@import "blocks/cards";
+@import "blocks/swiper";
+@import "blocks/campaign";
+@import "blocks/footer";
+@import "base/media";
+
+
+
+
